@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "titleQuestion": "Qué tipos de datos son primitivos en Javascript?",
+    "answers": 
+    [
+      {
+        "id": 1,
+        "text": "Double, Integer, Char, Boolean, String, Undefined, Array"
+      },
+      {
+        "id": 2,
+        "text": "Number, String, Object, Undefined, Integer, Symbol, Array"
+      },
+      {
+        "id": 3,
+        "text": "Number, String, Null, Undefined, BigInt, Boolean, Symbol",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Double, String, Null, Undefined, BigInt, Boolean, Symbol"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titleQuestion": "Cómo es llamada esta función? () => {}",
+    "answers": 
+    [
+      {
+        "id": 1,
+        "text": "Arrow Function",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Function Expression"
+      },
+      {
+        "id": 3,
+        "text": "Function Associative"
+      },
+      {
+        "id": 4,
+        "text": "Solamente se llamaa función"
+      }
+    ]
+  }
+]
