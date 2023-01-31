@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 10,
     "titleQuestion": "Qué tipos de datos son primitivos en Javascript?",
     "answers": 
     [
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 11,
     "titleQuestion": "Cómo es llamada esta función? () => {}",
     "answers": 
     [
@@ -43,7 +43,23 @@
       },
       {
         "id": 4,
-        "text": "Solamente se llamaa función"
+        "text": "Solamente se llama función"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "titleQuestion": "Los arrays son un tipo de lista?",
+    "answers": 
+    [
+      {
+        "id": 1,
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "False"
       }
     ]
   }

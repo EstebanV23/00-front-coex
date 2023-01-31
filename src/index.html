@@ -5,13 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Normalize -->
-  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="./css/normalize.css">
   <!-- Iconos google -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <!-- Estilos bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <!-- Mis estilos -->
-  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="shortcut icon" href="./img/js.svg" type="image/x-icon">
   <title>Quiz Brayan</title>
 </head>
 <body>
@@ -20,22 +21,13 @@
     <h2 class="header-name">EV</h2>
   </header>
   <main class="container-fluid container-sm mt-3 p-4">
-    <h1 class="main-title">Quiz Javascript</h1>
-    <section class="main-content p-4 border-fill">
-      <h2>The first question</h2>
-      <div class="relative-answer">
-        <input type="radio" class="main-content-answer" name="answer" id="1">
-        <label for="1" class="container-answer">
-          Primera pregunta
-        </label>
-      </div>
-      <div class="relative-answer">
-        <input type="radio" class="main-content-answer" name="answer" id="2">
-        <label for="2" class="container-answer">
-          Primera pregunta
-        </label>
+    <h1 class="main-title mb-5 text-center fw-bold">Quiz Javascript</h1>
+    <section class="main-content p-4 border-fill" id="containerQuestion">
+      <div class="content-buttons d-flex align-items-center justify-content-center">
+        <button class="button" id="start">Iniciar</button>
       </div>
     </section>
+    <div id="holaMundo"></div>
   </main>
   <footer>
 
@@ -43,6 +35,6 @@
   <!-- Scripts Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-  <script type="module" src="app.js"></script>
+  <script type="module" src="./js/app.js"></script>
 </body>
 </html>
