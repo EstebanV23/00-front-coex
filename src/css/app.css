@@ -1,9 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root {
   --ColorPrimary: #133dc9ab;
   --ColorSecondary: #ddd9d9;
-  --ColorHeader: #bbbfff;
+  --ColorHeader: #6fabf0;
+}
+
+.color-primary{
+  color: var(--ColorPrimary);
+}
+
+.color-secondary{
+  color: var(--ColorSecondary);
+}
+
+.color-header{
+  color: var(--ColorHeader);
 }
 
 *{
@@ -14,6 +26,17 @@
   font-weight: 600;
 }
 
+.letter-footer{
+  font-family: 'Cabin', sans-serif;
+  text-decoration: none;
+  transition: color .3s ease-in-out;
+  margin: 0;
+}
+
+.letter-footer:hover{
+  color: var(--ColorHeader) !important;
+}
+
 /* Estilos header */
 .container-header {
   background-color: var(--ColorHeader);
@@ -21,6 +44,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
+}
+
+.main-container{
+  min-height: 79vh;
 }
 
 .header-icon{
@@ -155,4 +182,14 @@
 
 .number-corrects{
   color: darkgreen;
+}
+
+/* Estilos para el foooter */
+
+.social-icon{
+  filter: contrast(0) sepia(0.4);
+}
+
+.spacing{
+  gap: 10px;
 }

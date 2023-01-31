@@ -62,5 +62,57 @@
         "text": "False"
       }
     ]
+  },
+  {
+    "id": 13,
+    "titleQuestion": "Si realizamos un console.log(typeof null) cuál es el resultado?",
+    "answers": 
+    [
+      {
+        "id": 1,
+        "text": "'null'"
+      },
+      {
+        "id": 2,
+        "text": "'object'",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "'undefined'"
+      },
+      {
+        "id": 4,
+        "text": "'nullis'"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "titleQuestion": "De las siguientes oraciones, cuál es la correcta?",
+    "answers": 
+    [
+      {
+        "id": 1,
+        "text": "Javascript es un lenguaje fuertemente tipado y estático"
+      },
+      {
+        "id": 2,
+        "text": "Javascript es un lenguaje Debilmente tipado y estático"
+      },
+      {
+        "id": 3,
+        "text": "Javascript es un lenguaje fuertemente tipado y dinámico"
+      },
+      {
+        "id": 4,
+        "text": "Javascript es un lenguaje debilmente tipado y dinámico",
+        "isCorrect": true
+      },
+      {
+        "id": 5,
+        "text": "Javascript no maneja tipados y no es dinámico ni estático"
+      }
+    ]
   }
 ]
